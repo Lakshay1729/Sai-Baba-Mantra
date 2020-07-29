@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/acme</item>
+        <item>@font/actor</item>
+        <item>@font/arvo</item>
+        <item>@font/averia_libre_light</item>
+        <item>@font/belgrano</item>
+        <item>@font/cabin</item>
+        <item>@font/cherry_swash</item>
+    </array>
+</resources>

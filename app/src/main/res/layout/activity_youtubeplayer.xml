@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:id="@+id/youtubeplayer"
+
+    android:background="#B9570C"
+    tools:context=".Youtubeplayer">
+
+    <!--<com.google.android.youtube.player.YouTubePlayerView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/youtubeview"-->
+        <!--&gt;-->
+
+    <!--</com.google.android.youtube.player.YouTubePlayerView>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/shape54"
+        android:elevation="8dp"
+
+        android:paddingHorizontal="28dp"
+        android:paddingVertical="8dp"
+        android:text="Live Darshan From Shirdi "
+        android:textColor="#ffffff"
+        android:textSize="26dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:id="@+id/web_lay"
+        android:layout_marginTop="82dp"
+
+        android:background="@drawable/saibaba">
+
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:id="@+id/webView"
+
+         />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="206dp"
+            android:id="@+id/image_live"/>
+    </RelativeLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="12dp"
+        android:layout_below="@+id/web_lay">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            >
+
+    <TextView
+        android:id="@+id/Reference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+
+        android:padding="18dp"
+        android:text="This video is live from Sai Baba Official website from Shirdi.\nTemple opens at 4:00 AM and closes at 10:00 PM at night."
+        android:textColor="#efefef"
+        android:textSize="18sp"
+
+        android:textStyle="normal" />
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/description"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/Reference"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:fontFamily="@font/acme"-->
+        <!--android:padding="18dp"-->
+        <!--android:text="@string/description"-->
+        <!--android:textColor="#efefef"-->
+        <!--android:textAppearance="?attr/textAppearanceListItem"-->
+        <!--android:tooltipText="Description"-->
+        <!--android:textAlignment="viewStart"-->
+        <!--android:textSize="18sp"-->
+
+        <!--android:textStyle="normal" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/description"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/Reference"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginStart="136dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:fontFamily="sans-serif-black"-->
+        <!--android:text="www.sai.org.in"-->
+
+        <!--android:textColor="#efefef"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="normal" />-->
+
+
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/description"
+                android:layout_alignParentLeft="true"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/button1"
+                android:background="@drawable/shape55"
+android:elevation="5dp"
+                android:textFontWeight="4"
+                android:text="Learn About Sai Baba Mantra"
+                android:textColor="#efefef" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/description"
+                android:layout_alignParentLeft="true"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/button1"
+                android:background="@drawable/shape55"
+                android:elevation="5dp"
+                android:text="Read About Other Mantras"
+                android:textFontWeight="4"
+                android:textColor="#efefef" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/description"
+                android:layout_alignParentLeft="true"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/button1"
+                android:textFontWeight="4"
+                android:elevation="5dp"
+                android:drawableLeft="@drawable/thumbs_up"
+                android:paddingLeft="12dp"
+                android:drawableRight="@drawable/thumbs_up"
+                android:paddingRight="12dp"
+                android:background="@drawable/shape55"
+
+                android:text="Share this app"
+                android:textColor="#efefef" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

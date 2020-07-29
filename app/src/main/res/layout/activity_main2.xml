@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9BE9725"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/t1"
+        android:textAlignment="viewStart"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:drawableRight="@mipmap/ic_launcher"
+        android:text="Share this app on Whatsapp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:id="@+id/v1"
+        android:layout_below="@+id/t1"
+        android:background="@color/colorbackground"></View>
+
+
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:id="@+id/t2"-->
+        <!--android:textAlignment="viewStart"-->
+        <!--android:padding="10dp"-->
+        <!--android:textSize="20dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_below="@+id/v1"-->
+        <!--android:fontFamily="sans-serif-light"-->
+        <!--android:text="Set Alarm"-->
+        <!---->
+        <!--/>-->
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ch1"
+    android:textAlignment="viewStart"
+    android:padding="10dp"
+    android:textSize="20dp"
+    android:textStyle="normal"
+
+        android:text="Set Alarm"
+        android:layout_below="@+id/v1"
+        android:checked="false"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@+id/ch1"
+        android:id="@+id/v2"
+        android:background="@color/colorbackground"></View>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ch2"
+        android:textAlignment="viewStart"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="normal"
+
+        android:text="RingTone"
+        android:layout_below="@+id/v2"
+        android:checked="false"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_below="@+id/ch2"
+        android:background="@color/colorbackground"></View>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".FourthFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:id="@+id/puja_thali"
+        android:scaleType="fitXY"
+        android:layout_marginTop="-8dp"
+        android:src="@drawable/puja_thali"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+
+
+        android:layout_below="@+id/puja_thali">
+
+        <ImageButton
+            android:id="@+id/stop"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+
+        android:layout_toLeftOf="@+id/play"
+            android:layout_marginRight="18dp"
+android:layout_marginStart="25dp"
+            android:background="@drawable/shape53"
+            android:onClick="stop"
+            android:scaleType="centerInside"
+            android:src="@drawable/stop" />
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_marginStart="14dp"
+
+android:layout_toLeftOf="@+id/live_alarm"
+            android:layout_marginRight="18dp"
+
+            android:background="@drawable/shape53"
+            android:onClick="Click"
+            android:padding="18dip"
+            android:src="@drawable/play" />
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/live_alarm"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:layout_marginStart="18dp"
+android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+
+            android:background="@drawable/shape53"
+            >
+
+            <ImageButton
+                android:id="@+id/alarm"
+                android:layout_width="28dip"
+                android:layout_height="10dip"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="8.7dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/live_back"
+                android:scaleType="fitXY"
+                android:layout_below="@+id/livee"
+                android:tooltipText="Live Darshan From Shirdi" />
+
+            <ImageButton
+                android:layout_width="29dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="9dp"
+                android:id="@+id/livee"
+
+                android:background="@android:color/transparent"
+                android:src="@drawable/live" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+
+android:layout_toRightOf="@+id/live_alarm"
+            android:id="@+id/shareit"
+            android:layout_marginStart="18dp"
+            android:background="@drawable/shape53"
+            android:onClick="ShareIt"
+            android:src="@drawable/share" />
+
+        <ImageButton
+            android:id="@+id/three"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+
+            android:layout_marginStart="18.5dp"
+android:layout_toRightOf="@+id/shareit"
+            android:background="@drawable/shape53"
+            android:onClick="Open"
+            android:padding="20dip"
+            android:src="@drawable/three_dots" />
+    </LinearLayout>
+
+
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Time"-->
+
+    <!--android:background="#010101"-->
+    <!--android:textColor="#ffffff"-->
+    <!--android:id="@+id/time"-->
+    <!--android:fontFamily="sans-serif-condensed"-->
+    <!--android:layout_below="@+id/alarm"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--/>-->
+    <!--<Button-->
+    <!--android:layout_width="180dp"-->
+    <!--android:layout_height="35dp"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:textColor="#DDE6EE"-->
+    <!--android:textSize="18dp"-->
+    <!--android:fontFamily="sans-serif-condensed-light"-->
+    <!--android:text="Add Song"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:background="#0C0C0E"-->
+    <!--android:shadowRadius="20"-->
+    <!--android:drawableLeft="@drawable/add"-->
+    <!--android:paddingLeft="15dp"-->
+    <!--android:onClick="choose"-->
+    <!--android:layout_marginBottom="19dp"-->
+    <!--/>-->
+
+
+</LinearLayout>

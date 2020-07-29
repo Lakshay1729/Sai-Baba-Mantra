@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "251445266680",
+    "firebase_url": "https://mantra-3661b.firebaseio.com",
+    "project_id": "mantra-3661b",
+    "storage_bucket": "mantra-3661b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251445266680:android:a476f78a63166edd",
+        "android_client_info": {
+          "package_name": "com.heartmeetsoul.saimantra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251445266680-8rkg89a3n2jb5vl70d71a7qjvoqo1cmf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.heartmeetsoul.saimantra",
+            "certificate_hash": "569997be43588114ff6fac55df4ba8afc093e7ad"
+          }
+        },
+        {
+          "client_id": "251445266680-4cgmo94o8urc8n1i10gfg6agjme0sh4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIYAdwRTZkLcC00wnmMJQdU7Jn26iPQqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251445266680-4cgmo94o8urc8n1i10gfg6agjme0sh4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

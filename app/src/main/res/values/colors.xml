@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorbackground">#995C0D</color>
+    <color name="colorgradient">#99926408</color>
+    <color name="gold_dark">#F07306</color>
+
+    <color name="gold_med">#ab804b</color>
+
+    <color name="gold">#cea774</color>
+    <color name="orange">#FB8C00</color>
+
+    <color name="gold_light">#edd3b2</color>
+
+
+</resources>
